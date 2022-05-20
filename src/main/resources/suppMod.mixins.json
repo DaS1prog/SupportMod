@@ -1,0 +1,16 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.das1cha.suppMod.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "refmap": "supportMod-refmap.json",
+  "mixins": [
+    "SuppMixin"
+  ],
+  "client": [
+    "SuppMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
