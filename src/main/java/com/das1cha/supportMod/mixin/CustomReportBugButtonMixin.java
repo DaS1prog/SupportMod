@@ -22,7 +22,7 @@ public class CustomReportBugButtonMixin extends Screen {
 
 	@Inject(at = @At("HEAD"), method = "initWidgets()V")
 	private void initWidgets(CallbackInfo c) {
-		addDrawableChild(new ButtonWidget(width / 2 + 4, height / 4 + 72 + -16, 98, 20, new TranslatableText(SuppMod.translateId), (button) -> {
+		addDrawableChild(new ButtonWidget(width / 2 + 4, height / 4 + 72 + -16 , 98, 20, new TranslatableText(SuppMod.translateId), (button) -> {
 			client.setScreen(new ConfirmChatLinkScreen((confirmed) -> {
 				if (confirmed) {
 					Util.getOperatingSystem().open(SuppMod.urlSupp);
@@ -30,7 +30,7 @@ public class CustomReportBugButtonMixin extends Screen {
 
 				client.setScreen(this);
 			}, SuppMod.urlSupp, true));
-		}));
+		}));// упаковка, всего этого чуда, в метод не желательно, так как в лучшем случае ничего не произойдёт и кнопка не появится. В худшем случае приведёт к вылету
 	}
 
 
