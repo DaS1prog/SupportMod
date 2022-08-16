@@ -18,7 +18,7 @@ public class CustomReportBugButtonMixin extends Screen {
 
 	protected CustomReportBugButtonMixin(Text title) {
 		super(title);
-	}
+	}	// Без наличия конструктора, не будет работать.
 
 	@Inject(at = @At("HEAD"), method = "initWidgets()V")
 	private void initWidgets(CallbackInfo c) {
