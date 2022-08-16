@@ -1,15 +1,15 @@
 {
   "schemaVersion": 1,
   "id": "supportmod",
-  "version": "1.0.1",
+  "version": "1.0.0",
 
   "name": "supportMod",
-  "description": "Данная модификация разробатывалась для проекта RSIS!",
+  "description": "Данная модификация позволяет заменить ссылку в кнопке репорта, на необходимый вам рессурс репорта ошибок!",
   "authors": [
     "Das1CHA"
   ],
   "contact": {
-    "homepage": "https://discord.gg/Jr4UBqKs2N"
+    "homepage": "https://github.com/DaS1prog/SupportMod"
   },
 
   "icon": "assets/suppMod/icon.png",
@@ -17,7 +17,7 @@
   "environment": "*",
   "entrypoints": {
     "main": [
-      "com.das1cha.suppMod.SuppMod"
+      "com.das1cha.supportMod.SuppMod"
     ]
   },
   "mixins": [

@@ -1,14 +1,14 @@
 {
   "required": true,
   "minVersion": "0.8",
-  "package": "com.das1cha.suppMod.mixin",
+  "package": "com.das1cha.supportMod.mixin",
   "compatibilityLevel": "JAVA_17",
   "refmap": "supportMod-refmap.json",
   "mixins": [
-    "SuppMixin"
+    "CustomReportBugButtonMixin"
   ],
   "client": [
-    "SuppMixin"
+    "CustomReportBugButtonMixin"
   ],
   "injectors": {
     "defaultRequire": 1
