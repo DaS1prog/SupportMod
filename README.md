@@ -1,3 +1,3 @@
-# Favric Support Mod
+# Fabric Support Mod
 
 Cancel changes
